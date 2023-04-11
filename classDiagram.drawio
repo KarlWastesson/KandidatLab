@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T09:13:51.374Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="eH_QaPFu-2ewrUp7KR7j" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-11T09:19:52.814Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="zVjwmsd6PnjB9bnm5fba" version="21.1.5" type="github">
   <diagram name="Page-1" id="hojcnSkxbj4f1BHJZiE3">
-    <mxGraphModel dx="1910" dy="1784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2350" dy="1924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -119,56 +119,59 @@
         <mxCell id="4nmt8U6601-7MUYyNT3q-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4nmt8U6601-7MUYyNT3q-52" target="ky3TiyBcIJoiYtu8OpSj-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cRIdnXcLlvJj5D5Ri7P7-5" value="ExplosionE (Explosion Emitter)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="cRIdnXcLlvJj5D5Ri7P7-5" value="ExplosionE (Explosion Emitter)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="-500" y="573" width="350" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="cRIdnXcLlvJj5D5Ri7P7-6" value="-oneTime : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cRIdnXcLlvJj5D5Ri7P7-5">
+        <mxCell id="cRIdnXcLlvJj5D5Ri7P7-6" value="-oneTime : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="cRIdnXcLlvJj5D5Ri7P7-5" vertex="1">
           <mxGeometry y="26" width="350" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="cRIdnXcLlvJj5D5Ri7P7-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="cRIdnXcLlvJj5D5Ri7P7-5">
+        <mxCell id="cRIdnXcLlvJj5D5Ri7P7-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="cRIdnXcLlvJj5D5Ri7P7-5" vertex="1">
           <mxGeometry y="60" width="350" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="cRIdnXcLlvJj5D5Ri7P7-8" value="+ExplosionE(glm::vec2 position, bool oneTime, float spawnRate)&#xa;+addParticle(size_t arg) : void&#xa;+update(const double dt) : void&#xa;&#xa;&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cRIdnXcLlvJj5D5Ri7P7-5">
+        <mxCell id="cRIdnXcLlvJj5D5Ri7P7-8" value="+ExplosionE(glm::vec2 position, bool oneTime, float spawnRate)&#xa;+addParticle(size_t arg) : void&#xa;+update(const double dt) : void&#xa;&#xa;&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="cRIdnXcLlvJj5D5Ri7P7-5" vertex="1">
           <mxGeometry y="68" width="350" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="cRIdnXcLlvJj5D5Ri7P7-9" value="ConeE (Cone Emitter)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="cRIdnXcLlvJj5D5Ri7P7-9" value="ConeE (Cone Emitter)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="-400" y="740" width="410" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="cRIdnXcLlvJj5D5Ri7P7-10" value="-coneAngleDeg : float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cRIdnXcLlvJj5D5Ri7P7-9">
+        <mxCell id="cRIdnXcLlvJj5D5Ri7P7-10" value="-coneAngleDeg : float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="cRIdnXcLlvJj5D5Ri7P7-9" vertex="1">
           <mxGeometry y="26" width="410" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="cRIdnXcLlvJj5D5Ri7P7-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="cRIdnXcLlvJj5D5Ri7P7-9">
+        <mxCell id="cRIdnXcLlvJj5D5Ri7P7-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="cRIdnXcLlvJj5D5Ri7P7-9" vertex="1">
           <mxGeometry y="60" width="410" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="cRIdnXcLlvJj5D5Ri7P7-12" value="+ConeE(glm::vec2 position, glm::vec2 force, float spawnRate, float angle)&#xa;+addParticle(size_t arg) : void&#xa;&#xa;&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cRIdnXcLlvJj5D5Ri7P7-9">
+        <mxCell id="cRIdnXcLlvJj5D5Ri7P7-12" value="+ConeE(glm::vec2 position, glm::vec2 force, float spawnRate, float angle)&#xa;+addParticle(size_t arg) : void&#xa;&#xa;&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="cRIdnXcLlvJj5D5Ri7P7-9" vertex="1">
           <mxGeometry y="68" width="410" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="cRIdnXcLlvJj5D5Ri7P7-13" value="" style="endArrow=none;html=1;rounded=0;exitX=0.789;exitY=-0.011;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="cRIdnXcLlvJj5D5Ri7P7-9">
+        <mxCell id="cRIdnXcLlvJj5D5Ri7P7-13" value="" style="endArrow=none;html=1;rounded=0;exitX=0.789;exitY=-0.011;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="cRIdnXcLlvJj5D5Ri7P7-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-150" y="730" as="sourcePoint" />
             <mxPoint x="-80" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cRIdnXcLlvJj5D5Ri7P7-15" value="EffectW (wind)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="cRIdnXcLlvJj5D5Ri7P7-15" value="EffectW (wind)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="-70" y="505" width="290" height="96" as="geometry" />
         </mxCell>
-        <mxCell id="cRIdnXcLlvJj5D5Ri7P7-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="cRIdnXcLlvJj5D5Ri7P7-15">
+        <mxCell id="cRIdnXcLlvJj5D5Ri7P7-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="cRIdnXcLlvJj5D5Ri7P7-15" vertex="1">
           <mxGeometry y="26" width="290" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="cRIdnXcLlvJj5D5Ri7P7-18" value="+EffectW(glm::vec2 pos, glm::vec2 frc, float radius)&#xa;-calculateForce(Particle&amp; particle) : glm::vec2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cRIdnXcLlvJj5D5Ri7P7-15">
+        <mxCell id="cRIdnXcLlvJj5D5Ri7P7-18" value="+EffectW(glm::vec2 pos, glm::vec2 frc, float radius)&#xa;-calculateForce(Particle&amp; particle) : glm::vec2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="cRIdnXcLlvJj5D5Ri7P7-15" vertex="1">
           <mxGeometry y="34" width="290" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="cRIdnXcLlvJj5D5Ri7P7-19" value="EffectB (black hole)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="cRIdnXcLlvJj5D5Ri7P7-19" value="EffectB (black hole)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="250" y="505" width="290" height="106" as="geometry" />
         </mxCell>
-        <mxCell id="cRIdnXcLlvJj5D5Ri7P7-22" value="- mass : float" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="cRIdnXcLlvJj5D5Ri7P7-19">
+        <mxCell id="cRIdnXcLlvJj5D5Ri7P7-22" value="- mass : float" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="cRIdnXcLlvJj5D5Ri7P7-19" vertex="1">
           <mxGeometry y="26" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cRIdnXcLlvJj5D5Ri7P7-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="cRIdnXcLlvJj5D5Ri7P7-19">
+        <mxCell id="cRIdnXcLlvJj5D5Ri7P7-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="cRIdnXcLlvJj5D5Ri7P7-19" vertex="1">
           <mxGeometry y="56" width="290" height="4" as="geometry" />
         </mxCell>
-        <mxCell id="cRIdnXcLlvJj5D5Ri7P7-21" value="+EffectB(glm::vec2 pos, float mass, float rad)&#xa;-calculateForce(Particle&amp; particle) : glm::vec2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cRIdnXcLlvJj5D5Ri7P7-19">
+        <mxCell id="cRIdnXcLlvJj5D5Ri7P7-21" value="+EffectB(glm::vec2 pos, float mass, float rad)&#xa;-calculateForce(Particle&amp; particle) : glm::vec2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="cRIdnXcLlvJj5D5Ri7P7-19" vertex="1">
           <mxGeometry y="60" width="290" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ejMd_IS0fNRQUta3YKd9-1" value="&lt;div&gt;+ isAlive() : bool&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ setAcc(glm::vec2 ac) : void&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getAcc() : glm::vec2&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp; getPos() : glm::vec2&amp;amp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ setPos(glm::vec2 newPos) : void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ getVel() : glm::vec2&lt;/div&gt;&lt;div&gt;+ setVel(glm::vec2 newVel) : void&lt;/div&gt;&lt;div&gt;+ getForce() : glm::vec2&amp;amp;&lt;/div&gt;&lt;div&gt;+ setForce(glm::vec2 newForce) : void&lt;/div&gt;&lt;div&gt;+ setMass(float newMass) : void&lt;/div&gt;&lt;div&gt;+ getMass() : float&lt;/div&gt;&lt;div&gt;+ setLifeTime(double newLife) : void&lt;/div&gt;&lt;div&gt;+ getLifeTime() : double&lt;/div&gt;&lt;div&gt;+ setRad(float setRad) : void&lt;/div&gt;&lt;div&gt;+ getRad() : float&lt;/div&gt;&lt;div&gt;+ getColor() : glm::vec4&lt;/div&gt;&lt;div&gt;+ setColor(glm::vec4 colorArg) : void&lt;/div&gt;&lt;div&gt;+ killPart(double dt) : void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;spacing=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="-750" width="370" height="560" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
