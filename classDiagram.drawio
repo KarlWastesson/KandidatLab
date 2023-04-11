@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T09:26:29.381Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="deRFjFq0Y-ce7BdZZoPS" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-11T09:27:24.971Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="G5_w6kWKbu-MQVpbfn6R" version="21.1.5" type="github">
   <diagram name="Page-1" id="hojcnSkxbj4f1BHJZiE3">
-    <mxGraphModel dx="2350" dy="1924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2759" dy="2149" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,13 +34,15 @@
         <mxCell id="4nmt8U6601-7MUYyNT3q-14" value="+UniformE(glm::vec2 position, glm::vec2 force , float spawnRate)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="4nmt8U6601-7MUYyNT3q-2" vertex="1">
           <mxGeometry y="26" width="395" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4nmt8U6601-7MUYyNT3q-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.414;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="ky3TiyBcIJoiYtu8OpSj-16" edge="1">
+        <mxCell id="4nmt8U6601-7MUYyNT3q-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.447;entryY=1.028;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="ky3TiyBcIJoiYtu8OpSj-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-330" y="435" />
-              <mxPoint x="-329" y="435" />
+              <mxPoint x="-330" y="460" />
+              <mxPoint x="-270" y="460" />
+              <mxPoint x="-270" y="414" />
             </Array>
             <mxPoint x="-330" y="573" as="sourcePoint" />
+            <mxPoint x="-260" y="435" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4nmt8U6601-7MUYyNT3q-25" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
@@ -138,9 +140,6 @@
         </mxCell>
         <mxCell id="cRIdnXcLlvJj5D5Ri7P7-21" value="+EffectB(glm::vec2 pos, float mass, float rad)&#xa;-calculateForce(Particle&amp; particle) : glm::vec2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="cRIdnXcLlvJj5D5Ri7P7-19" vertex="1">
           <mxGeometry y="60" width="290" height="46" as="geometry" />
-        </mxCell>
-        <mxCell id="ejMd_IS0fNRQUta3YKd9-1" value="&lt;div&gt;+ isAlive() : bool&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ setAcc(glm::vec2 ac) : void&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getAcc() : glm::vec2&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp; getPos() : glm::vec2&amp;amp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ setPos(glm::vec2 newPos) : void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ getVel() : glm::vec2&lt;/div&gt;&lt;div&gt;+ setVel(glm::vec2 newVel) : void&lt;/div&gt;&lt;div&gt;+ getForce() : glm::vec2&amp;amp;&lt;/div&gt;&lt;div&gt;+ setForce(glm::vec2 newForce) : void&lt;/div&gt;&lt;div&gt;+ setMass(float newMass) : void&lt;/div&gt;&lt;div&gt;+ getMass() : float&lt;/div&gt;&lt;div&gt;+ setLifeTime(double newLife) : void&lt;/div&gt;&lt;div&gt;+ getLifeTime() : double&lt;/div&gt;&lt;div&gt;+ setRad(float setRad) : void&lt;/div&gt;&lt;div&gt;+ getRad() : float&lt;/div&gt;&lt;div&gt;+ getColor() : glm::vec4&lt;/div&gt;&lt;div&gt;+ setColor(glm::vec4 colorArg) : void&lt;/div&gt;&lt;div&gt;+ killPart(double dt) : void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;spacing=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-740" y="-750" width="370" height="560" as="geometry" />
         </mxCell>
         <mxCell id="2eMXb5nRdXgQ4q3qev8g-1" value="Particle" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="440" y="40" width="310" height="440" as="geometry" />
